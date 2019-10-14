@@ -1,7 +1,6 @@
 # Machine Learning Nanodegree
 
 ## Capstone Project
-Disclaimer: all stock pricing data is historical data downloaded from Yahoo Finance.
 
 ### Project: Stock Price Prediction
 
@@ -73,56 +72,9 @@ plt.rcParams["figure.figsize"] = (15,8)
 
 # initializing numpy seed so that we get reproduciable results, especially with Keras
 
-
-```
-
-    /anaconda/envs/stocktrading/lib/python3.5/site-packages/statsmodels/compat/pandas.py:56: FutureWarning: The pandas.core.datetools module is deprecated and will be removed in a future version. Please use the pandas.tseries module instead.
-      from pandas.core import datetools
-    /anaconda/envs/stocktrading/lib/python3.5/site-packages/fix_yahoo_finance/__init__.py:43: DeprecationWarning: 
-        Auto-overriding of pandas_datareader's get_data_yahoo() is deprecated and will be removed in future versions.
-        Use pdr_override() to explicitly override it.
-      DeprecationWarning)
-    /anaconda/envs/stocktrading/lib/python3.5/site-packages/keras/backend/__init__.py:27: ResourceWarning: unclosed file <_io.TextIOWrapper name='/Users/Samer/.keras/keras.json' mode='r' encoding='UTF-8'>
-      _config = json.load(open(_config_path))
-    Using TensorFlow backend.
-    /anaconda/envs/stocktrading/lib/python3.5/site-packages/tensorflow/python/util/deprecation.py:212: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
-      arg_spec = inspect.getargspec(func)
-    /anaconda/envs/stocktrading/lib/python3.5/site-packages/tensorflow/contrib/keras/python/keras/backend.py:3593: ResourceWarning: unclosed file <_io.TextIOWrapper name='/Users/Samer/.keras/keras.json' mode='r' encoding='UTF-8'>
-      _config = json.load(open(_config_path))
-    /anaconda/envs/stocktrading/lib/python3.5/site-packages/tensorflow/contrib/labeled_tensor/python/ops/_typecheck.py:233: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
-      spec = inspect.getargspec(f)
-
-
----
-
-The below is just to enable the Jupyter Notebook to show long output, without having to scroll.
-
-
-```python
-%%html
-<style>
-.output_wrapper, .output {
-height:auto !important;
-max-height:3000px; /* your desired max-height here */
-}
-.output_scroll {
-box-shadow:none !important;
-webkit-box-shadow:none !important;
-}
-</style>
 ```
 
 
-<style>
-.output_wrapper, .output {
-height:auto !important;
-max-height:3000px; /* your desired max-height here */
-}
-.output_scroll {
-box-shadow:none !important;
-webkit-box-shadow:none !important;
-}
-</style>
 
 
 ### The First StockRegressor Object
@@ -154,19 +106,7 @@ display(stock.pricing_info[484:488])
 
 
 <div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
 
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -294,19 +234,7 @@ prices.plot(kind='scatter', x='Adj Close', y='Volume')
 
 
 <div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
 
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -431,19 +359,7 @@ display(stock.adj_close_price.head())
 
 
 <div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
 
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -510,19 +426,7 @@ display(stock.learning_df.head())
 
 
 <div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
 
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -735,19 +639,7 @@ stock.plot_learning_data_frame()
 
 
 <div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
 
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -834,19 +726,7 @@ stock.plot_learning_data_frame()
 
 
 <div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
 
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -940,19 +820,7 @@ stock.plot_learning_data_frame()
 
 
 <div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
 
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1089,19 +957,7 @@ stock.plot_learning_data_frame()
 
 
 <div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
 
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1207,19 +1063,7 @@ stock2.plot_learning_data_frame()
 
 
 <div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
 
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1322,19 +1166,7 @@ stock.plot_learning_data_frame()
 
 
 <div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
 
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1439,19 +1271,7 @@ stock.plot_learning_data_frame()
 
 
 <div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
 
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1596,19 +1416,7 @@ stock.predict()
 
 
 <div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
 
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1850,19 +1658,7 @@ s.plot_learning_data_frame()
 
 
 <div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
 
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -2124,19 +1920,7 @@ gs.train(n_days_to_predict = 50,
 
 
 <div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
 
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
