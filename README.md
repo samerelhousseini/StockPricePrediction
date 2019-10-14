@@ -6,7 +6,8 @@
 
 
 
-
+**Discalimer**: all stock prices historical data were downloaded from Yahoo Finance.
+**Discalimer**: lstm.py was provided as part of the project files.
 
 ---
 
