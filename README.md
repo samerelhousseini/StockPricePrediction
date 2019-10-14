@@ -1,6 +1,7 @@
 # Machine Learning Nanodegree
 
 ## Capstone Project
+Disclaimer: all stock pricing data is historical data downloaded from Yahoo Finance.
 
 ### Project: Stock Price Prediction
 
