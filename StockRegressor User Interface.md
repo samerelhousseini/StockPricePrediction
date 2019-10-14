@@ -65,20 +65,7 @@ The below is just to enable the Jupyter Notebook to show long output, without ha
 
 ```python
 %%html
-<style>
-.output_wrapper, .output {
-height:auto !important;
-max-height:15000px; /* your desired max-height here */
-}
-.output_scroll {
-box-shadow:none !important;
-webkit-box-shadow:none !important;
-}
-</style>
-```
 
-
-<style>
 .output_wrapper, .output {
 height:auto !important;
 max-height:15000px; /* your desired max-height here */
@@ -234,19 +221,7 @@ for ticker, stock in stocks.items():
 
 
 <div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
 
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -418,7 +393,7 @@ for ticker, stock in stocks.items():
 
 
 
-![png](output_14_5.png)
+![png](imgs-ui/output_14_5.png)
 
 
     
@@ -461,19 +436,7 @@ for ticker, stock in stocks.items():
 
 
 <div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
 
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -645,7 +608,7 @@ for ticker, stock in stocks.items():
 
 
 
-![png](output_14_11.png)
+![png](imgs-ui/output_14_11.png)
 
 
     
@@ -688,19 +651,7 @@ for ticker, stock in stocks.items():
 
 
 <div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
 
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -872,7 +823,7 @@ for ticker, stock in stocks.items():
 
 
 
-![png](output_14_17.png)
+![png](imgs-ui/output_14_17.png)
 
 
     
@@ -915,19 +866,7 @@ for ticker, stock in stocks.items():
 
 
 <div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
 
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1099,7 +1038,7 @@ for ticker, stock in stocks.items():
 
 
 
-![png](output_14_23.png)
+![png](imgs-ui/output_14_23.png)
 
 
     
@@ -1142,19 +1081,7 @@ for ticker, stock in stocks.items():
 
 
 <div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
 
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1326,5 +1253,5 @@ for ticker, stock in stocks.items():
 
 
 
-![png](output_14_29.png)
+![png](imgs-ui/output_14_29.png)
 
