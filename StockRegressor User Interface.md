@@ -64,17 +64,6 @@ The below is just to enable the Jupyter Notebook to show long output, without ha
 
 
 ```python
-%%html
-
-.output_wrapper, .output {
-height:auto !important;
-max-height:15000px; /* your desired max-height here */
-}
-.output_scroll {
-box-shadow:none !important;
-webkit-box-shadow:none !important;
-}
-</style>
 
 
 ### Entering the Tickers and the Date Range
